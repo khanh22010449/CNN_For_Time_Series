@@ -14,6 +14,7 @@ from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 def gen_evaluate_fn(
     test_X,
     test_y,
+    scaler,
     device: torch.device,
 ):
     """Generate the function for centralized evaluation."""
@@ -23,8 +24,8 @@ def gen_evaluate_fn(
         net = CNN()
         set_weights(net, parameters_ndarrays)
         net.to(device)
-        loss = test(net, test_X, test_y, device=device)
-        return loss
+        loss, r2, mae = test(net, test_X, test_y, device=device, scaler=scaler)
+        return loss, {"r2": r2, "mae": mae}
 
     return evaluate
 
@@ -38,14 +39,15 @@ def on_fit_config(server_round: int):
     return {"lr": lr}
 
 
-# # Define metric aggregation function
-# def weighted_average(metrics):
-#     # Multiply accuracy of each client by number of examples used
-#     accuracies = [num_examples * m["accuracy"] for num_examples, m in metrics]
-#     examples = [num_examples for num_examples, _ in metrics]
+def weighted_average(metrics):
+    r2_values = [num_examples * m["r2"] for num_examples, m in metrics]
+    mae_values = [num_examples * m["mae"] for num_examples, m in metrics]
+    total_examples = sum(num_examples for num_examples, _ in metrics)
 
-#     # Aggregate and return custom metric (weighted average)
-#     return {"federated_evaluate_accuracy": sum(accuracies) / sum(examples)}
+    return {
+        "r2": sum(r2_values) / total_examples,
+        "mae": sum(mae_values) / total_examples,
+    }
 
 
 def server_fn(context: Context):
@@ -65,7 +67,7 @@ def server_fn(context: Context):
     # FlowerDatasets. However, we don't use FlowerDatasets for the server since
     # partitioning is not needed.
     # We make use of the "test" split only
-    _, _1, test_x, test_y = load_data()
+    _, _1, test_x, test_y, scaler = load_data()
 
     # Define strategy
     strategy = CustomFedAvg(
@@ -77,9 +79,9 @@ def server_fn(context: Context):
         initial_parameters=parameters,
         on_fit_config_fn=on_fit_config,
         evaluate_fn=gen_evaluate_fn(
-            test_x, test_y, device=context.run_config["server-device"]
+            test_x, test_y, scaler, device=context.run_config["server-device"]
         ),
-        # evaluate_metrics_aggregation_fn=weighted_average,
+        evaluate_metrics_aggregation_fn=weighted_average,
     )
 
     config = ServerConfig(num_rounds=num_rounds)

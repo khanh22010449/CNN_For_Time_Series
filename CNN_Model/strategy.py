@@ -33,10 +33,13 @@ class CustomFedAvg(FedAvg):
             self._init_wandb_project()
 
         # Keep track of best acc
-        self.best_acc_so_far = 0.0
+        self.best_r2_so_far = -float("inf")
 
         # A dictionary to store results as they come
         self.results = {}
+
+        # Store current parameters
+        self.current_parameters = self.initial_parameters
 
     def _init_wandb_project(self):
         # init W&B
@@ -57,66 +60,63 @@ class CustomFedAvg(FedAvg):
         with open(f"{self.save_path}/results.json", "w", encoding="utf-8") as fp:
             json.dump(self.results, fp)
 
-    def _update_best_acc(self, round, accuracy, parameters):
-        """Determines if a new best global model has been found.
+    def _update_best_model(self, server_round, r2, parameters):
+        """Update the best model if a new best is found."""
+        if r2 > self.best_r2_so_far:
+            # We have a new best model
+            self.best_r2_so_far = r2
+            # Convert parameters to ndarrays
+            params_dict = parameters_to_ndarrays(parameters)
 
-        If so, the model checkpoint is saved to disk.
-        """
-        if accuracy > self.best_acc_so_far:
-            self.best_acc_so_far = accuracy
-            logger.log(INFO, "💡 New best global model found: %f", accuracy)
-            # You could save the parameters object dircontext.run_config["attention_dim"]ectly.
-            # Instead we are going to apply them to a PyTorch
-            # model and save the state dict.
-            # Converts flwr.common.Parameters to ndarrays
-            ndarrays = parameters_to_ndarrays(parameters)
+            # Save the model
             model = CNN()
+            set_weights(model, params_dict)
+            torch.save(model.state_dict(), f"{self.save_path}/best_model.pth")
 
-            set_weights(model, ndarrays)
-            # Save the PyTorch model
-            file_name = f"model_state_acc_{accuracy}_round_{round}.pth"
-            torch.save(model.state_dict(), self.save_path / file_name)
+            # Log
+            logger.log(
+                INFO,
+                "New best model found in round %s with r2=%s",
+                server_round,
+                r2,
+            )
 
-    def store_results_and_log(self, server_round: int, tag: str, results_dict):
-        """A helper method that stores results and logs them to W&B if enabled."""
-        # Store results
-        self._store_results(
-            tag=tag,
-            results_dict={"round": server_round, **results_dict},
+    def aggregate_fit(self, server_round, results, failures):
+        """Aggregate model weights and store the results."""
+        # Call aggregate_fit from the parent class (FedAvg)
+        parameters_aggregated, metrics_aggregated = super().aggregate_fit(
+            server_round, results, failures
         )
 
-        if self.use_wandb:
-            # Log centralized loss and metrics to W&B
-            wandb.log(results_dict, step=server_round)
+        # Store the current parameters
+        self.current_parameters = parameters_aggregated
+
+        # Store the fit metrics
+        if metrics_aggregated is not None:
+            metrics = {"server_round": server_round, **metrics_aggregated}
+            self._store_results("fit", metrics)
+            if self.use_wandb:
+                wandb.log({"fit": metrics}, step=server_round)
+
+        return parameters_aggregated, metrics_aggregated
 
     def aggregate_evaluate(self, server_round, results, failures):
-        """Aggregate results from federated evaluation."""
-        # Call the parent class's aggregate_evaluate method
-        eval_res = super().aggregate_evaluate(server_round, results, failures)
-
-        # Ensure eval_res contains both loss and metrics
-        if isinstance(eval_res, tuple):
-            loss, metrics = eval_res
-        else:
-            loss = eval_res
-            metrics = {}
-
-        # Store and log
-        self.store_results_and_log(
-            server_round=server_round,
-            tag="federated_evaluate",
-            results_dict={"federated_evaluate_loss": loss, **metrics},
+        """Aggregate evaluation metrics and store the results."""
+        # Call aggregate_evaluate from the parent class (FedAvg)
+        loss_aggregated, metrics_aggregated = super().aggregate_evaluate(
+            server_round, results, failures
         )
-        return loss, metrics
 
-    def aggregate_evaluate(self, server_round, results, failures):
-        """Aggregate results from federated evaluation."""
-        loss, metrics = super().aggregate_evaluate(server_round, results, failures)
+        # Store the evaluation metrics
+        if metrics_aggregated is not None:
+            metrics = {"server_round": server_round, **metrics_aggregated}
+            self._store_results("evaluate", metrics)
+            if self.use_wandb:
+                wandb.log({"evaluate": metrics}, step=server_round)
 
-        # Store and log
-        self.store_results_and_log(
-            server_round=server_round,
-            tag="federated_evaluate",
-            results_dict={"federated_evaluate_loss": loss, **metrics},
-        )
-        return loss, metrics
+            # Update the best model if we have a new best
+            self._update_best_model(
+                server_round, metrics["r2"], self.current_parameters
+            )
+
+        return loss_aggregated, metrics_aggregated

@@ -1,0 +1,110 @@
+2025-03-19 05:52:49,418 INFO    StreamThr :22390 [internal.py:wandb_internal():85] W&B internal server running at pid: 22390, started at: 2025-03-19 05:52:49.418401
+2025-03-19 05:52:49,419 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: status
+2025-03-19 05:52:49,420 INFO    WriterThread:22390 [datastore.py:open_for_write():87] open: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/run-3cr3k96q.wandb
+2025-03-19 05:52:49,421 DEBUG   SenderThread:22390 [sender.py:send():391] send: header
+2025-03-19 05:52:49,422 DEBUG   SenderThread:22390 [sender.py:send():391] send: run
+2025-03-19 05:52:50,110 INFO    SenderThread:22390 [dir_watcher.py:__init__():211] watching files in: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files
+2025-03-19 05:52:50,110 INFO    SenderThread:22390 [sender.py:_start_run_threads():1200] run started: 3cr3k96q with start time 1742338369.418166
+2025-03-19 05:52:50,118 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: run_start
+2025-03-19 05:52:50,127 DEBUG   HandlerThread:22390 [system_info.py:__init__():26] System info init
+2025-03-19 05:52:50,127 DEBUG   HandlerThread:22390 [system_info.py:__init__():41] System info init done
+2025-03-19 05:52:50,127 INFO    HandlerThread:22390 [system_monitor.py:start():194] Starting system monitor
+2025-03-19 05:52:50,127 INFO    SystemMonitor:22390 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-03-19 05:52:50,127 INFO    HandlerThread:22390 [system_monitor.py:probe():214] Collecting system info
+2025-03-19 05:52:50,128 INFO    SystemMonitor:22390 [interfaces.py:start():188] Started cpu monitoring
+2025-03-19 05:52:50,128 INFO    SystemMonitor:22390 [interfaces.py:start():188] Started disk monitoring
+2025-03-19 05:52:50,128 INFO    SystemMonitor:22390 [interfaces.py:start():188] Started gpu monitoring
+2025-03-19 05:52:50,129 INFO    SystemMonitor:22390 [interfaces.py:start():188] Started memory monitoring
+2025-03-19 05:52:50,129 INFO    SystemMonitor:22390 [interfaces.py:start():188] Started network monitoring
+2025-03-19 05:52:50,136 DEBUG   HandlerThread:22390 [system_info.py:probe():152] Probing system
+2025-03-19 05:52:50,138 DEBUG   HandlerThread:22390 [system_info.py:_probe_git():137] Probing git
+2025-03-19 05:52:50,142 DEBUG   HandlerThread:22390 [system_info.py:_probe_git():145] Probing git done
+2025-03-19 05:52:50,142 DEBUG   HandlerThread:22390 [system_info.py:probe():200] Probing system done
+2025-03-19 05:52:50,142 DEBUG   HandlerThread:22390 [system_monitor.py:probe():223] {'os': 'Linux-6.11.0-19-generic-x86_64-with-glibc2.39', 'python': '3.12.7', 'heartbeatAt': '2025-03-18T22:52:50.136494', 'startedAt': '2025-03-18T22:52:49.415673', 'docker': None, 'cuda': None, 'args': ('--app', '.', '--num-supernodes', '20', '--backend-config', '{"client-resources": {"num-cpus": 1.0, "num-gpus": 1.0}}'), 'state': 'running', 'program': '/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation', 'codePathLocal': None, 'git': {'remote': 'https://github.com/khanh22010449/CNN_Model.git', 'commit': '7b79d5a78a629e4b9c51cf6c1797317c8bceb629'}, 'email': '22010449@st.phenikaa-uni.edu.vn', 'root': '/home/khanhtl/Code/FL/CNN_Model', 'host': 'khanhtl', 'username': 'khanhtl', 'executable': '/home/khanhtl/miniconda3/envs/FL/bin/python3.12', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3725.9596250000004, 'min': 400.0, 'max': 4785.0}, 'cpu_freq_per_core': [{'current': 4414.43, 'min': 400.0, 'max': 4785.0}, {'current': 4414.416, 'min': 400.0, 'max': 4785.0}, {'current': 2913.002, 'min': 400.0, 'max': 4785.0}, {'current': 4414.334, 'min': 400.0, 'max': 4785.0}, {'current': 2936.718, 'min': 400.0, 'max': 4785.0}, {'current': 2930.079, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2942.843, 'min': 400.0, 'max': 4785.0}, {'current': 3436.03, 'min': 400.0, 'max': 4785.0}, {'current': 3508.237, 'min': 400.0, 'max': 4785.0}, {'current': 2917.668, 'min': 400.0, 'max': 4785.0}, {'current': 4411.74, 'min': 400.0, 'max': 4785.0}, {'current': 4414.242, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2912.858, 'min': 400.0, 'max': 4785.0}, {'current': 2943.172, 'min': 400.0, 'max': 4785.0}], 'disk': {'/': {'total': 182.2811393737793, 'used': 149.95536041259766}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 22.76729965209961}}
+2025-03-19 05:52:50,142 INFO    HandlerThread:22390 [system_monitor.py:probe():224] Finished collecting system info
+2025-03-19 05:52:50,142 INFO    HandlerThread:22390 [system_monitor.py:probe():227] Publishing system info
+2025-03-19 05:52:50,142 DEBUG   HandlerThread:22390 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-03-19 05:52:50,142 ERROR   HandlerThread:22390 [system_info.py:_save_conda():223] Error saving conda packages: [Errno 2] No such file or directory: 'conda'
+Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/wandb/sdk/internal/system/system_info.py", line 216, in _save_conda
+    subprocess.call(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/subprocess.py", line 389, in call
+    with Popen(*popenargs, **kwargs) as p:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/subprocess.py", line 1955, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'conda'
+2025-03-19 05:52:50,143 DEBUG   HandlerThread:22390 [system_info.py:_save_conda():224] Saving conda packages done
+2025-03-19 05:52:50,143 INFO    HandlerThread:22390 [system_monitor.py:probe():229] Finished publishing system info
+2025-03-19 05:52:50,145 DEBUG   SenderThread:22390 [sender.py:send():391] send: files
+2025-03-19 05:52:50,145 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2025-03-19 05:52:50,222 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: python_packages
+2025-03-19 05:52:50,222 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: python_packages
+2025-03-19 05:52:50,263 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: stop_status
+2025-03-19 05:52:50,263 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: internal_messages
+2025-03-19 05:52:50,264 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: stop_status
+2025-03-19 05:52:51,111 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/requirements.txt
+2025-03-19 05:52:51,111 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/conda-environment.yaml
+2025-03-19 05:52:51,111 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-metadata.json
+2025-03-19 05:52:55,398 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: keepalive
+2025-03-19 05:52:55,903 DEBUG   SenderThread:22390 [sender.py:send():391] send: telemetry
+2025-03-19 05:52:55,903 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: status_report
+2025-03-19 05:52:55,989 INFO    wandb-upload_0:22390 [upload_job.py:push():130] Uploaded file /tmp/tmpullpf5o6wandb/ojwvraks-wandb-metadata.json
+2025-03-19 05:52:56,111 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:52:58,112 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:52:59,942 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:52:59,955 DEBUG   SenderThread:22390 [sender.py:send():391] send: telemetry
+2025-03-19 05:53:00,112 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:53:00,240 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: internal_messages
+2025-03-19 05:53:00,906 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: status_report
+2025-03-19 05:53:01,055 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:53:01,074 DEBUG   SenderThread:22390 [sender.py:send():391] send: history
+2025-03-19 05:53:01,074 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: summary_record
+2025-03-19 05:53:01,110 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-03-19 05:53:01,119 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-summary.json
+2025-03-19 05:53:02,199 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:53:02,678 DEBUG   SenderThread:22390 [sender.py:send():391] send: history
+2025-03-19 05:53:02,678 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: summary_record
+2025-03-19 05:53:02,678 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-03-19 05:53:03,344 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:53:03,526 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:53:03,557 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-summary.json
+2025-03-19 05:53:03,586 DEBUG   SenderThread:22390 [sender.py:send():391] send: history
+2025-03-19 05:53:03,586 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: summary_record
+2025-03-19 05:53:03,587 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-03-19 05:53:04,434 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:53:04,577 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-summary.json
+2025-03-19 05:53:04,846 DEBUG   SenderThread:22390 [sender.py:send():391] send: history
+2025-03-19 05:53:04,846 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: summary_record
+2025-03-19 05:53:04,882 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-03-19 05:53:05,267 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: stop_status
+2025-03-19 05:53:05,467 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:53:05,672 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:53:05,692 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-summary.json
+2025-03-19 05:53:06,060 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: status_report
+2025-03-19 05:53:06,301 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: stop_status
+2025-03-19 05:53:06,479 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:53:06,557 DEBUG   SenderThread:22390 [sender.py:send():391] send: history
+2025-03-19 05:53:06,557 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: summary_record
+2025-03-19 05:53:06,557 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-03-19 05:53:06,705 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:53:06,705 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-summary.json
+2025-03-19 05:53:07,078 DEBUG   SenderThread:22390 [sender.py:send():391] send: history
+2025-03-19 05:53:07,078 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: summary_record
+2025-03-19 05:53:07,078 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-03-19 05:53:07,700 DEBUG   HandlerThread:22390 [handler.py:handle_request():158] handle_request: partial_history
+2025-03-19 05:53:07,787 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:53:07,787 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-summary.json
+2025-03-19 05:53:08,439 DEBUG   SenderThread:22390 [sender.py:send():391] send: history
+2025-03-19 05:53:08,440 DEBUG   SenderThread:22390 [sender.py:send_request():418] send_request: summary_record
+2025-03-19 05:53:08,441 INFO    SenderThread:22390 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-03-19 05:53:08,508 INFO    memory    :22390 [interfaces.py:monitor():138] Process proc.memory.rssMB has exited.
+2025-03-19 05:53:08,509 DEBUG   SystemMonitor:22390 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-03-19 05:53:08,509 DEBUG   SystemMonitor:22390 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-03-19 05:53:08,509 DEBUG   SystemMonitor:22390 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-03-19 05:53:08,510 DEBUG   SenderThread:22390 [sender.py:send():391] send: stats
+2025-03-19 05:53:09,092 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/wandb-summary.json
+2025-03-19 05:53:10,087 INFO    Thread-12 :22390 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250319_055249-3cr3k96q/files/output.log
+2025-03-19 05:53:10,357 INFO    MainThread:22390 [internal.py:handle_exit():75] Internal process exited

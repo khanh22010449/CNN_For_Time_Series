@@ -1,0 +1,81 @@
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      Starting Flower ServerApp, config: num_rounds=10, no round_timeout
+[92mINFO [39m:
+[92mINFO [39m:      [INIT]
+[92mINFO [39m:      Using initial global parameters provided by strategy
+[92mINFO [39m:      Starting evaluation of initial global parameters
+[91mERROR [39m:     ServerApp thread raised an exception: cannot unpack non-iterable float object
+[91mERROR [39m:     Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 265, in server_th_with_start_checks
+    _run(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/run_serverapp.py", line 63, in run
+    server_app(driver=driver, context=context)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server_app.py", line 120, in __call__
+    start_driver(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/compat/app.py", line 87, in start_driver
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 492, in run_fl
+    hist, elapsed_time = server.fit(
+                         ^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 95, in fit
+    res = self.strategy.evaluate(0, parameters=self.parameters)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/strategy/fedavg.py", line 170, in evaluate
+    loss, metrics = eval_res
+    ^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Exception in thread Thread-1 (server_th_with_start_checks):
+Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 265, in server_th_with_start_checks
+    _run(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/run_serverapp.py", line 63, in run
+    server_app(driver=driver, context=context)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server_app.py", line 120, in __call__
+    start_driver(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/compat/app.py", line 87, in start_driver
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 492, in run_fl
+    hist, elapsed_time = server.fit(
+                         ^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 95, in fit
+    res = self.strategy.evaluate(0, parameters=self.parameters)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/strategy/fedavg.py", line 170, in evaluate
+    loss, metrics = eval_res
+    ^^^^^^^^^^^^^
+TypeError: cannot unpack non-iterable float object
+Input shape: torch.Size([200, 1, 6])
+Flattened shape: torch.Size([200, 192])
+Output shape: torch.Size([200, 1])
+Predictions shape: torch.Size([200]), Target shape: torch.Size([200])
+Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation", line 10, in <module>
+    sys.exit(run_simulation_from_cli())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 129, in run_simulation_from_cli
+    _run_simulation(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 490, in _run_simulation
+    _main_loop(*args)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 387, in _main_loop
+    raise RuntimeError("Exception in ServerApp thread")
+RuntimeError: Exception in ServerApp thread
+Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation", line 10, in <module>
+    sys.exit(run_simulation_from_cli())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 129, in run_simulation_from_cli
+    _run_simulation(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 490, in _run_simulation
+    _main_loop(*args)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 387, in _main_loop
+    raise RuntimeError("Exception in ServerApp thread")
+RuntimeError: Exception in ServerApp thread

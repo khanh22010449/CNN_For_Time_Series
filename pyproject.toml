@@ -30,7 +30,7 @@ serverapp = "CNN_Model.server:app"
 clientapp = "CNN_Model.client:app"
 
 [tool.flwr.app.config]
-num-server-rounds = 10
+num-server-rounds = 20
 fraction-fit = 0.5
 fraction-evaluate = 0.5
 local-epochs = 30
@@ -44,6 +44,6 @@ default = "local-simulation"
 options.num-supernodes = 10
 
 [tool.flwr.federations.localhost-gpu]
-options.num-supernodes = 20
+options.num-supernodes = 100
 options.backend.client-resources.num-cpus = 1.0 # each ClientApp assumes to use 4CPUs
 options.backend.client-resources.num-gpus = 1.0 # at most 4 ClientApps will run in a given GPU

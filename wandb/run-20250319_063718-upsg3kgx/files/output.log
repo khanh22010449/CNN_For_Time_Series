@@ -1,0 +1,95 @@
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      Starting Flower ServerApp, config: num_rounds=20, no round_timeout
+[92mINFO [39m:
+[92mINFO [39m:      [INIT]
+[92mINFO [39m:      Using initial global parameters provided by strategy
+[92mINFO [39m:      Starting evaluation of initial global parameters
+[91mERROR [39m:     ServerApp thread raised an exception: test() got multiple values for argument 'device'
+[91mERROR [39m:     Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 265, in server_th_with_start_checks
+    _run(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/run_serverapp.py", line 63, in run
+    server_app(driver=driver, context=context)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server_app.py", line 120, in __call__
+    start_driver(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/compat/app.py", line 87, in start_driver
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 492, in run_fl
+    hist, elapsed_time = server.fit(
+                         ^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 95, in fit
+    res = self.strategy.evaluate(0, parameters=self.parameters)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/strategy/fedavg.py", line 167, in evaluate
+    eval_res = self.evaluate_fn(server_round, parameters_ndarrays, {})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/Code/FL/CNN_Model/CNN_Model/server.py", line 27, in evaluate
+    loss, r2, mae = test(net, test_X, test_y, scaler, device=device)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test() got multiple values for argument 'device'
+Exception in thread Thread-1 (server_th_with_start_checks):
+Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py", line 1075, in _bootstrap_inner
+    self.run()
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py", line 1012, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 265, in server_th_with_start_checks
+    _run(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/run_serverapp.py", line 63, in run
+    server_app(driver=driver, context=context)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server_app.py", line 120, in __call__
+    start_driver(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/compat/app.py", line 87, in start_driver
+    hist = run_fl(
+           ^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 492, in run_fl
+    hist, elapsed_time = server.fit(
+                         ^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/server.py", line 95, in fit
+    res = self.strategy.evaluate(0, parameters=self.parameters)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/server/strategy/fedavg.py", line 167, in evaluate
+    eval_res = self.evaluate_fn(server_round, parameters_ndarrays, {})
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/Code/FL/CNN_Model/CNN_Model/server.py", line 27, in evaluate
+    loss, r2, mae = test(net, test_X, test_y, scaler, device=device)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test() got multiple values for argument 'device'
+Traceback (most recent call last):
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+  File "/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation", line 10, in <module>
+    sys.exit(run_simulation_from_cli())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 129, in run_simulation_from_cli
+    _run_simulation(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 490, in _run_simulation
+    _main_loop(*args)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 387, in _main_loop
+    raise RuntimeError("Exception in ServerApp thread")
+RuntimeError: Exception in ServerApp thread
+Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation", line 10, in <module>
+    sys.exit(run_simulation_from_cli())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 129, in run_simulation_from_cli
+    _run_simulation(
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 490, in _run_simulation
+    _main_loop(*args)
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/flwr/simulation/run_simulation.py", line 387, in _main_loop
+    raise RuntimeError("Exception in ServerApp thread")
+RuntimeError: Exception in ServerApp thread
+Exception ignored in: <module 'threading' from '/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py'>
+Traceback (most recent call last):
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py", line 1594, in _shutdown
+    atexit_call()
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/concurrent/futures/thread.py", line 31, in _python_exit
+    t.join()
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py", line 1149, in join
+    self._wait_for_tstate_lock()
+  File "/home/khanhtl/miniconda3/envs/FL/lib/python3.12/threading.py", line 1169, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt:
