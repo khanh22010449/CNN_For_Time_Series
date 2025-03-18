@@ -1,0 +1,44 @@
+2025-01-27 09:44:31,941 INFO    StreamThr :64206 [internal.py:wandb_internal():85] W&B internal server running at pid: 64206, started at: 2025-01-27 09:44:31.941151
+2025-01-27 09:44:31,942 DEBUG   HandlerThread:64206 [handler.py:handle_request():158] handle_request: status
+2025-01-27 09:44:31,943 INFO    WriterThread:64206 [datastore.py:open_for_write():87] open: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/run-8rmez4e1.wandb
+2025-01-27 09:44:31,944 DEBUG   SenderThread:64206 [sender.py:send():391] send: header
+2025-01-27 09:44:31,944 DEBUG   SenderThread:64206 [sender.py:send():391] send: run
+2025-01-27 09:44:32,594 INFO    SenderThread:64206 [dir_watcher.py:__init__():211] watching files in: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/files
+2025-01-27 09:44:32,594 INFO    SenderThread:64206 [sender.py:_start_run_threads():1200] run started: 8rmez4e1 with start time 1737945871.940779
+2025-01-27 09:44:32,601 DEBUG   HandlerThread:64206 [handler.py:handle_request():158] handle_request: run_start
+2025-01-27 09:44:32,609 DEBUG   HandlerThread:64206 [system_info.py:__init__():26] System info init
+2025-01-27 09:44:32,609 DEBUG   HandlerThread:64206 [system_info.py:__init__():41] System info init done
+2025-01-27 09:44:32,609 INFO    HandlerThread:64206 [system_monitor.py:start():194] Starting system monitor
+2025-01-27 09:44:32,609 INFO    SystemMonitor:64206 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-01-27 09:44:32,610 INFO    HandlerThread:64206 [system_monitor.py:probe():214] Collecting system info
+2025-01-27 09:44:32,610 INFO    SystemMonitor:64206 [interfaces.py:start():188] Started cpu monitoring
+2025-01-27 09:44:32,611 INFO    SystemMonitor:64206 [interfaces.py:start():188] Started disk monitoring
+2025-01-27 09:44:32,611 INFO    SystemMonitor:64206 [interfaces.py:start():188] Started gpu monitoring
+2025-01-27 09:44:32,611 INFO    SystemMonitor:64206 [interfaces.py:start():188] Started memory monitoring
+2025-01-27 09:44:32,611 INFO    SystemMonitor:64206 [interfaces.py:start():188] Started network monitoring
+2025-01-27 09:44:32,618 DEBUG   HandlerThread:64206 [system_info.py:probe():152] Probing system
+2025-01-27 09:44:32,619 DEBUG   HandlerThread:64206 [gitlib.py:_init_repo():56] git repository is invalid
+2025-01-27 09:44:32,619 DEBUG   HandlerThread:64206 [system_info.py:probe():200] Probing system done
+2025-01-27 09:44:32,619 DEBUG   HandlerThread:64206 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-51-generic-x86_64-with-glibc2.39', 'python': '3.12.7', 'heartbeatAt': '2025-01-27T02:44:32.618104', 'startedAt': '2025-01-27T02:44:31.938262', 'docker': None, 'cuda': None, 'args': ('--app', '.', '--num-supernodes', '10'), 'state': 'running', 'program': '/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation', 'codePathLocal': None, 'host': 'khanhtl', 'username': 'khanhtl', 'executable': '/home/khanhtl/miniconda3/envs/FL/bin/python3.12', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3216.2549999999997, 'min': 400.0, 'max': 4785.0}, 'cpu_freq_per_core': [{'current': 4416.541, 'min': 400.0, 'max': 4785.0}, {'current': 4416.594, 'min': 400.0, 'max': 4785.0}, {'current': 2948.576, 'min': 400.0, 'max': 4785.0}, {'current': 4436.179, 'min': 400.0, 'max': 4785.0}, {'current': 4416.557, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2944.175, 'min': 400.0, 'max': 4785.0}, {'current': 2944.105, 'min': 400.0, 'max': 4785.0}, {'current': 4414.57, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2935.991, 'min': 400.0, 'max': 4785.0}, {'current': 2942.91, 'min': 400.0, 'max': 4785.0}, {'current': 4416.472, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2935.146, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}], 'disk': {'/': {'total': 182.2811393737793, 'used': 129.2126121520996}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 22.767784118652344}}
+2025-01-27 09:44:32,619 INFO    HandlerThread:64206 [system_monitor.py:probe():224] Finished collecting system info
+2025-01-27 09:44:32,619 INFO    HandlerThread:64206 [system_monitor.py:probe():227] Publishing system info
+2025-01-27 09:44:32,619 DEBUG   HandlerThread:64206 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-01-27 09:44:33,595 INFO    Thread-12 :64206 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/files/conda-environment.yaml
+2025-01-27 09:44:34,838 DEBUG   HandlerThread:64206 [system_info.py:_save_conda():224] Saving conda packages done
+2025-01-27 09:44:34,839 INFO    HandlerThread:64206 [system_monitor.py:probe():229] Finished publishing system info
+2025-01-27 09:44:34,840 DEBUG   SenderThread:64206 [sender.py:send():391] send: files
+2025-01-27 09:44:34,840 INFO    SenderThread:64206 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2025-01-27 09:44:35,595 INFO    Thread-12 :64206 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/files/conda-environment.yaml
+2025-01-27 09:44:35,595 INFO    Thread-12 :64206 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/files/wandb-metadata.json
+2025-01-27 09:44:35,858 INFO    wandb-upload_0:64206 [upload_job.py:push():130] Uploaded file /tmp/tmpf3n0hl7wwandb/6ebkdncn-wandb-metadata.json
+2025-01-27 09:44:36,801 DEBUG   HandlerThread:64206 [handler.py:handle_request():158] handle_request: python_packages
+2025-01-27 09:44:36,801 DEBUG   SenderThread:64206 [sender.py:send_request():418] send_request: python_packages
+2025-01-27 09:44:36,802 DEBUG   HandlerThread:64206 [handler.py:handle_request():158] handle_request: internal_messages
+2025-01-27 09:44:36,802 DEBUG   HandlerThread:64206 [handler.py:handle_request():158] handle_request: stop_status
+2025-01-27 09:44:36,802 DEBUG   SenderThread:64206 [sender.py:send_request():418] send_request: stop_status
+2025-01-27 09:44:37,169 DEBUG   SenderThread:64206 [sender.py:send():391] send: telemetry
+2025-01-27 09:44:37,170 DEBUG   HandlerThread:64206 [handler.py:handle_request():158] handle_request: status_report
+2025-01-27 09:44:37,596 INFO    Thread-12 :64206 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/files/output.log
+2025-01-27 09:44:37,596 INFO    Thread-12 :64206 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/files/requirements.txt
+2025-01-27 09:44:39,596 INFO    Thread-12 :64206 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250127_094431-8rmez4e1/files/output.log
+2025-01-27 09:44:40,603 INFO    MainThread:64206 [internal.py:handle_exit():75] Internal process exited

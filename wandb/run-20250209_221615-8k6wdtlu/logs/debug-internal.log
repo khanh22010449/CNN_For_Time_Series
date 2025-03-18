@@ -1,0 +1,184 @@
+2025-02-09 22:16:15,318 INFO    StreamThr :5198 [internal.py:wandb_internal():85] W&B internal server running at pid: 5198, started at: 2025-02-09 22:16:15.318468
+2025-02-09 22:16:15,320 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: status
+2025-02-09 22:16:15,322 INFO    WriterThread:5198 [datastore.py:open_for_write():87] open: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/run-8k6wdtlu.wandb
+2025-02-09 22:16:15,322 DEBUG   SenderThread:5198 [sender.py:send():391] send: header
+2025-02-09 22:16:15,323 DEBUG   SenderThread:5198 [sender.py:send():391] send: run
+2025-02-09 22:16:16,026 INFO    SenderThread:5198 [dir_watcher.py:__init__():211] watching files in: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files
+2025-02-09 22:16:16,026 INFO    SenderThread:5198 [sender.py:_start_run_threads():1200] run started: 8k6wdtlu with start time 1739114175.318854
+2025-02-09 22:16:16,033 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: run_start
+2025-02-09 22:16:16,041 DEBUG   HandlerThread:5198 [system_info.py:__init__():26] System info init
+2025-02-09 22:16:16,041 DEBUG   HandlerThread:5198 [system_info.py:__init__():41] System info init done
+2025-02-09 22:16:16,041 INFO    HandlerThread:5198 [system_monitor.py:start():194] Starting system monitor
+2025-02-09 22:16:16,041 INFO    SystemMonitor:5198 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2025-02-09 22:16:16,042 INFO    HandlerThread:5198 [system_monitor.py:probe():214] Collecting system info
+2025-02-09 22:16:16,042 INFO    SystemMonitor:5198 [interfaces.py:start():188] Started cpu monitoring
+2025-02-09 22:16:16,042 INFO    SystemMonitor:5198 [interfaces.py:start():188] Started disk monitoring
+2025-02-09 22:16:16,043 INFO    SystemMonitor:5198 [interfaces.py:start():188] Started gpu monitoring
+2025-02-09 22:16:16,043 INFO    SystemMonitor:5198 [interfaces.py:start():188] Started memory monitoring
+2025-02-09 22:16:16,043 INFO    SystemMonitor:5198 [interfaces.py:start():188] Started network monitoring
+2025-02-09 22:16:16,050 DEBUG   HandlerThread:5198 [system_info.py:probe():152] Probing system
+2025-02-09 22:16:16,051 DEBUG   HandlerThread:5198 [gitlib.py:_init_repo():56] git repository is invalid
+2025-02-09 22:16:16,051 DEBUG   HandlerThread:5198 [system_info.py:probe():200] Probing system done
+2025-02-09 22:16:16,051 DEBUG   HandlerThread:5198 [system_monitor.py:probe():223] {'os': 'Linux-6.8.0-52-generic-x86_64-with-glibc2.39', 'python': '3.12.7', 'heartbeatAt': '2025-02-09T15:16:16.050363', 'startedAt': '2025-02-09T15:16:15.313915', 'docker': None, 'cuda': None, 'args': ('--app', '.', '--num-supernodes', '20', '--backend-config', '{"client-resources": {"num-cpus": 1.0, "num-gpus": 1.0}}'), 'state': 'running', 'program': '/home/khanhtl/miniconda3/envs/FL/bin/flower-simulation', 'codePathLocal': None, 'host': 'khanhtl', 'username': 'khanhtl', 'executable': '/home/khanhtl/miniconda3/envs/FL/bin/python3.12', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2658.3675624999996, 'min': 400.0, 'max': 4785.0}, 'cpu_freq_per_core': [{'current': 4487.764, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 4489.545, 'min': 400.0, 'max': 4785.0}, {'current': 4495.302, 'min': 400.0, 'max': 4785.0}, {'current': 4430.384, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2993.897, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2990.833, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 2993.034, 'min': 400.0, 'max': 4785.0}, {'current': 2994.063, 'min': 400.0, 'max': 4785.0}, {'current': 3903.941, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}, {'current': 4492.565, 'min': 400.0, 'max': 4785.0}, {'current': 400.0, 'min': 400.0, 'max': 4785.0}], 'disk': {'/': {'total': 182.2811393737793, 'used': 142.9490623474121}}, 'gpu': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 22.767776489257812}}
+2025-02-09 22:16:16,051 INFO    HandlerThread:5198 [system_monitor.py:probe():224] Finished collecting system info
+2025-02-09 22:16:16,051 INFO    HandlerThread:5198 [system_monitor.py:probe():227] Publishing system info
+2025-02-09 22:16:16,051 DEBUG   HandlerThread:5198 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2025-02-09 22:16:17,026 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/conda-environment.yaml
+2025-02-09 22:16:18,425 DEBUG   HandlerThread:5198 [system_info.py:_save_conda():224] Saving conda packages done
+2025-02-09 22:16:18,426 INFO    HandlerThread:5198 [system_monitor.py:probe():229] Finished publishing system info
+2025-02-09 22:16:18,428 DEBUG   SenderThread:5198 [sender.py:send():391] send: files
+2025-02-09 22:16:18,428 INFO    SenderThread:5198 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2025-02-09 22:16:19,026 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/conda-environment.yaml
+2025-02-09 22:16:19,026 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/wandb-metadata.json
+2025-02-09 22:16:19,355 INFO    wandb-upload_0:5198 [upload_job.py:push():130] Uploaded file /tmp/tmpu48d6_w9wandb/8d57pfir-wandb-metadata.json
+2025-02-09 22:16:20,063 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: python_packages
+2025-02-09 22:16:20,064 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: python_packages
+2025-02-09 22:16:20,064 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: stop_status
+2025-02-09 22:16:20,064 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: stop_status
+2025-02-09 22:16:20,065 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: internal_messages
+2025-02-09 22:16:20,326 DEBUG   SenderThread:5198 [sender.py:send():391] send: telemetry
+2025-02-09 22:16:20,326 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: status_report
+2025-02-09 22:16:21,027 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/output.log
+2025-02-09 22:16:21,027 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/requirements.txt
+2025-02-09 22:16:23,027 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/output.log
+2025-02-09 22:16:23,544 DEBUG   SenderThread:5198 [sender.py:send():391] send: exit
+2025-02-09 22:16:23,544 INFO    SenderThread:5198 [sender.py:send_exit():598] handling exit code: 1
+2025-02-09 22:16:23,544 INFO    SenderThread:5198 [sender.py:send_exit():600] handling runtime: 7
+2025-02-09 22:16:23,544 INFO    SenderThread:5198 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-02-09 22:16:23,544 INFO    SenderThread:5198 [sender.py:send_exit():606] send defer
+2025-02-09 22:16:23,545 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,545 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 0
+2025-02-09 22:16:23,545 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,545 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 0
+2025-02-09 22:16:23,545 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 1
+2025-02-09 22:16:23,545 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,545 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 1
+2025-02-09 22:16:23,545 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,545 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 1
+2025-02-09 22:16:23,545 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 2
+2025-02-09 22:16:23,545 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,545 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 2
+2025-02-09 22:16:23,545 INFO    HandlerThread:5198 [system_monitor.py:finish():203] Stopping system monitor
+2025-02-09 22:16:23,546 INFO    HandlerThread:5198 [interfaces.py:finish():200] Joined cpu monitor
+2025-02-09 22:16:23,546 INFO    HandlerThread:5198 [interfaces.py:finish():200] Joined disk monitor
+2025-02-09 22:16:23,546 DEBUG   SystemMonitor:5198 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2025-02-09 22:16:23,546 DEBUG   SystemMonitor:5198 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2025-02-09 22:16:23,546 DEBUG   SystemMonitor:5198 [system_monitor.py:_start():183] Publishing last batch of metrics
+2025-02-09 22:16:23,603 INFO    HandlerThread:5198 [interfaces.py:finish():200] Joined gpu monitor
+2025-02-09 22:16:23,603 INFO    HandlerThread:5198 [interfaces.py:finish():200] Joined memory monitor
+2025-02-09 22:16:23,603 INFO    HandlerThread:5198 [interfaces.py:finish():200] Joined network monitor
+2025-02-09 22:16:23,603 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,603 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 2
+2025-02-09 22:16:23,603 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 3
+2025-02-09 22:16:23,603 DEBUG   SenderThread:5198 [sender.py:send():391] send: stats
+2025-02-09 22:16:23,604 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,604 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 3
+2025-02-09 22:16:23,604 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,604 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 3
+2025-02-09 22:16:23,604 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 4
+2025-02-09 22:16:23,604 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,604 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 4
+2025-02-09 22:16:23,604 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,604 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 4
+2025-02-09 22:16:23,604 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 5
+2025-02-09 22:16:23,604 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,604 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 5
+2025-02-09 22:16:23,604 DEBUG   SenderThread:5198 [sender.py:send():391] send: summary
+2025-02-09 22:16:23,605 INFO    SenderThread:5198 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2025-02-09 22:16:23,605 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,605 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 5
+2025-02-09 22:16:23,605 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 6
+2025-02-09 22:16:23,605 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,605 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 6
+2025-02-09 22:16:23,605 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,605 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 6
+2025-02-09 22:16:23,607 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: status_report
+2025-02-09 22:16:23,885 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 7
+2025-02-09 22:16:23,885 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:23,885 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 7
+2025-02-09 22:16:23,886 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:23,886 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 7
+2025-02-09 22:16:24,028 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/config.yaml
+2025-02-09 22:16:24,028 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_created():271] file/dir created: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/wandb-summary.json
+2025-02-09 22:16:24,544 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: poll_exit
+2025-02-09 22:16:25,028 INFO    Thread-12 :5198 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/output.log
+2025-02-09 22:16:26,332 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 8
+2025-02-09 22:16:26,333 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: poll_exit
+2025-02-09 22:16:26,333 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:26,333 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 8
+2025-02-09 22:16:26,333 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:26,333 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 8
+2025-02-09 22:16:26,333 INFO    SenderThread:5198 [job_builder.py:build():443] Attempting to build job artifact
+2025-02-09 22:16:26,333 INFO    SenderThread:5198 [job_builder.py:_get_source_type():583] no source found
+2025-02-09 22:16:26,333 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 9
+2025-02-09 22:16:26,333 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:26,333 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 9
+2025-02-09 22:16:26,333 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:26,333 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 9
+2025-02-09 22:16:26,333 INFO    SenderThread:5198 [dir_watcher.py:finish():358] shutting down directory watcher
+2025-02-09 22:16:26,545 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: poll_exit
+2025-02-09 22:16:27,029 INFO    SenderThread:5198 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/output.log
+2025-02-09 22:16:27,029 INFO    SenderThread:5198 [dir_watcher.py:finish():388] scan: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files
+2025-02-09 22:16:27,029 INFO    SenderThread:5198 [dir_watcher.py:finish():402] scan save: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/wandb-metadata.json wandb-metadata.json
+2025-02-09 22:16:27,029 INFO    SenderThread:5198 [dir_watcher.py:finish():402] scan save: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/output.log output.log
+2025-02-09 22:16:27,029 INFO    SenderThread:5198 [dir_watcher.py:finish():402] scan save: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/requirements.txt requirements.txt
+2025-02-09 22:16:27,031 INFO    SenderThread:5198 [dir_watcher.py:finish():402] scan save: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/config.yaml config.yaml
+2025-02-09 22:16:27,032 INFO    SenderThread:5198 [dir_watcher.py:finish():402] scan save: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/wandb-summary.json wandb-summary.json
+2025-02-09 22:16:27,033 INFO    SenderThread:5198 [dir_watcher.py:finish():402] scan save: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/conda-environment.yaml conda-environment.yaml
+2025-02-09 22:16:27,034 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 10
+2025-02-09 22:16:27,034 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: poll_exit
+2025-02-09 22:16:27,034 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:27,035 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 10
+2025-02-09 22:16:27,035 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:27,035 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 10
+2025-02-09 22:16:27,035 INFO    SenderThread:5198 [file_pusher.py:finish():169] shutting down file pusher
+2025-02-09 22:16:27,545 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: poll_exit
+2025-02-09 22:16:27,545 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: poll_exit
+2025-02-09 22:16:27,619 INFO    wandb-upload_0:5198 [upload_job.py:push():130] Uploaded file /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/output.log
+2025-02-09 22:16:27,904 INFO    wandb-upload_1:5198 [upload_job.py:push():130] Uploaded file /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/requirements.txt
+2025-02-09 22:16:27,923 INFO    wandb-upload_2:5198 [upload_job.py:push():130] Uploaded file /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/config.yaml
+2025-02-09 22:16:27,943 INFO    wandb-upload_4:5198 [upload_job.py:push():130] Uploaded file /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/conda-environment.yaml
+2025-02-09 22:16:27,968 INFO    wandb-upload_3:5198 [upload_job.py:push():130] Uploaded file /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/files/wandb-summary.json
+2025-02-09 22:16:28,169 INFO    Thread-11 (_thread_body):5198 [sender.py:transition_state():626] send defer: 11
+2025-02-09 22:16:28,169 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:28,169 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 11
+2025-02-09 22:16:28,169 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:28,169 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 11
+2025-02-09 22:16:28,169 INFO    SenderThread:5198 [file_pusher.py:join():175] waiting for file pusher
+2025-02-09 22:16:28,170 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 12
+2025-02-09 22:16:28,170 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:28,170 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 12
+2025-02-09 22:16:28,170 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:28,170 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 12
+2025-02-09 22:16:28,170 INFO    SenderThread:5198 [file_stream.py:finish():601] file stream finish called
+2025-02-09 22:16:28,409 INFO    SenderThread:5198 [file_stream.py:finish():605] file stream finish is done
+2025-02-09 22:16:28,409 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 13
+2025-02-09 22:16:28,409 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:28,410 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 13
+2025-02-09 22:16:28,410 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:28,410 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 13
+2025-02-09 22:16:28,410 INFO    SenderThread:5198 [sender.py:transition_state():626] send defer: 14
+2025-02-09 22:16:28,410 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: defer
+2025-02-09 22:16:28,410 INFO    HandlerThread:5198 [handler.py:handle_request_defer():184] handle defer: 14
+2025-02-09 22:16:28,410 DEBUG   SenderThread:5198 [sender.py:send():391] send: final
+2025-02-09 22:16:28,410 DEBUG   SenderThread:5198 [sender.py:send():391] send: footer
+2025-02-09 22:16:28,410 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: defer
+2025-02-09 22:16:28,410 INFO    SenderThread:5198 [sender.py:send_request_defer():622] handle sender defer: 14
+2025-02-09 22:16:28,411 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: poll_exit
+2025-02-09 22:16:28,411 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: poll_exit
+2025-02-09 22:16:28,411 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: server_info
+2025-02-09 22:16:28,411 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: server_info
+2025-02-09 22:16:28,412 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: poll_exit
+2025-02-09 22:16:28,412 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: get_summary
+2025-02-09 22:16:28,413 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: sampled_history
+2025-02-09 22:16:28,413 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: internal_messages
+2025-02-09 22:16:28,674 DEBUG   SenderThread:5198 [sender.py:send_request():418] send_request: poll_exit
+2025-02-09 22:16:28,674 INFO    MainThread:5198 [wandb_run.py:_footer_history_summary_info():4078] rendering history
+2025-02-09 22:16:28,674 INFO    MainThread:5198 [wandb_run.py:_footer_history_summary_info():4110] rendering summary
+2025-02-09 22:16:28,674 INFO    MainThread:5198 [wandb_run.py:_footer_sync_info():4037] logging synced files
+2025-02-09 22:16:28,674 DEBUG   HandlerThread:5198 [handler.py:handle_request():158] handle_request: shutdown
+2025-02-09 22:16:28,674 INFO    HandlerThread:5198 [handler.py:finish():884] shutting down handler
+2025-02-09 22:16:29,413 INFO    WriterThread:5198 [datastore.py:close():296] close: /home/khanhtl/Code/FL/CNN_Model/wandb/run-20250209_221615-8k6wdtlu/run-8k6wdtlu.wandb
+2025-02-09 22:16:29,674 INFO    SenderThread:5198 [sender.py:finish():1631] shutting down sender
+2025-02-09 22:16:29,674 INFO    SenderThread:5198 [file_pusher.py:finish():169] shutting down file pusher
+2025-02-09 22:16:29,674 INFO    SenderThread:5198 [file_pusher.py:join():175] waiting for file pusher
