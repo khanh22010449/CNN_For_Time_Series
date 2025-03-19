@@ -6683,3 +6683,665 @@ Test Loss: 0.002706, R²: 0.947251, MAE: 0.130071
 [36m(ClientAppActor pid=68521)[39m Test Loss: 0.003277, R²: 0.936131, MAE: 0.145559
 [36m(ClientAppActor pid=68521)[39m Test Loss: 0.003819, R²: 0.925563, MAE: 0.159802
 [36m(ClientAppActor pid=68521)[39m Test Loss: 0.001601, R²: 0.968792, MAE: 0.097636
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001471, R²: 0.971337, MAE: 0.092916
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[92mINFO [39m:      aggregate_evaluate: received 100 results and 0 failures
+[92mINFO [39m:
+[92mINFO [39m:      [ROUND 20]
+[92mINFO [39m:      configure_fit: strategy sampled 50 clients (out of 100)
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001571, R²: 0.969386, MAE: 0.096325
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004566, R²: 0.911003, MAE: 0.176427
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001633, R²: 0.968166, MAE: 0.098365
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003047, R²: 0.940602, MAE: 0.139253
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002488, R²: 0.951512, MAE: 0.123307
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001347, R²: 0.973737, MAE: 0.089634
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001388, R²: 0.972944, MAE: 0.091195
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003388, R²: 0.933960, MAE: 0.147398
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003956, R²: 0.922885, MAE: 0.162279
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002501, R²: 0.951250, MAE: 0.124017
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001408, R²: 0.972562, MAE: 0.090673
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004292, R²: 0.916346, MAE: 0.171836
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001264, R²: 0.975363, MAE: 0.085591
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002715, R²: 0.947076, MAE: 0.130594
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001886, R²: 0.963236, MAE: 0.107716
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.005904, R²: 0.884932, MAE: 0.206769
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002139, R²: 0.958303, MAE: 0.113968
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002737, R²: 0.946657, MAE: 0.130113
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002972, R²: 0.942077, MAE: 0.136614
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002587, R²: 0.949580, MAE: 0.126945
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001787, R²: 0.965169, MAE: 0.103387
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002082, R²: 0.959423, MAE: 0.112264
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004246, R²: 0.917248, MAE: 0.170543
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002756, R²: 0.946275, MAE: 0.131565
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001815, R²: 0.964630, MAE: 0.104031
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003950, R²: 0.923013, MAE: 0.163491
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002182, R²: 0.957462, MAE: 0.114905
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002339, R²: 0.954406, MAE: 0.119100
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001622, R²: 0.968390, MAE: 0.098014
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001850, R²: 0.963946, MAE: 0.105614
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001729, R²: 0.966302, MAE: 0.101852
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001545, R²: 0.969894, MAE: 0.095345
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002182, R²: 0.957479, MAE: 0.114061
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002474, R²: 0.951781, MAE: 0.123043
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002980, R²: 0.941914, MAE: 0.137420
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003919, R²: 0.923606, MAE: 0.162540
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002523, R²: 0.950814, MAE: 0.125459
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.006213, R²: 0.878898, MAE: 0.213523
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002727, R²: 0.946845, MAE: 0.130374
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002588, R²: 0.949554, MAE: 0.126266
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002174, R²: 0.957622, MAE: 0.114560
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001704, R²: 0.966778, MAE: 0.100642
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004120, R²: 0.919693, MAE: 0.167965
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002405, R²: 0.953116, MAE: 0.121641
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003237, R²: 0.936914, MAE: 0.143655
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002617, R²: 0.948999, MAE: 0.127019
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001689, R²: 0.967088, MAE: 0.100526
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003099, R²: 0.939605, MAE: 0.140480
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001589, R²: 0.969021, MAE: 0.098264
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001316, R²: 0.974350, MAE: 0.087403
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001619, R²: 0.968448, MAE: 0.098462
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001356, R²: 0.973569, MAE: 0.088720
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004697, R²: 0.908458, MAE: 0.180090
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001578, R²: 0.969251, MAE: 0.096646
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001322, R²: 0.974229, MAE: 0.087769
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003257, R²: 0.936515, MAE: 0.144940
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.005675, R²: 0.889387, MAE: 0.200936
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001550, R²: 0.969794, MAE: 0.095845
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002963, R²: 0.942242, MAE: 0.137088
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001325, R²: 0.974181, MAE: 0.088263
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002037, R²: 0.960293, MAE: 0.111066
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001917, R²: 0.962638, MAE: 0.107308
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003373, R²: 0.934261, MAE: 0.148149
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001445, R²: 0.971833, MAE: 0.092071
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002637, R²: 0.948595, MAE: 0.128385
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002596, R²: 0.949394, MAE: 0.127260
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001750, R²: 0.965883, MAE: 0.102365
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006926
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.008542
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006003
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007595
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006483
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007032
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007183
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007408
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007294
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007247
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007252
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007184
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006704
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006596
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007344
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006809
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006376
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006665
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007318
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007744
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007113
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007697
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007037
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006454
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006911
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007195
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007270
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007097
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007667
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007630
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007973
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007122
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006797
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006284
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006539
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007538
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007511
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006925
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006510
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.008676
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006770
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006544
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007986
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.005893
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006965
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007393
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006891
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006648
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007706
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007370
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006167
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006822
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.008268
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006744
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006907
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007108
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007106
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007139
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007603
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006449
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006853
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007366
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006532
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007786
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007323
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006958
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007291
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007608
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006524
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006545
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007243
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006898
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007010
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007452
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007565
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006029
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006773
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007193
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007288
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006915
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006803
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007169
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006764
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007059
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.008242
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006261
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007504
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007444
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007770
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007775
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006904
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006807
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007388
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007527
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006722
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007237
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006987
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007559
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006572
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.008346
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006970
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007105
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006478
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006540
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007094
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007367
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006935
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007298
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007737
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007294
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007054
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006739
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006790
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006543
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006598
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007255
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006473
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.008458
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006912
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006874
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007474
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006790
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006833
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007417
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007531
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006885
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007357
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006768
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006438
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.008421
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007855
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006986
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007337
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006989
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006828
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006749
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007757
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.006654
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.007767
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007491
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007188
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006722
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006913
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007836
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.006685
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.007534
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007110
+[36m(ClientAppActor pid=68521)[39m Epoch 10/30, Loss: 0.008147
+[92mINFO [39m:      aggregate_fit: received 50 results and 0 failures
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [39m:      fit progress: (20, 0.0025910628028213978, {'r2': 0.9494965076446533, 'mae': 0.12697123}, 501.07745926499774)
+[92mINFO [39m:      configure_evaluate: strategy sampled 100 clients (out of 100)
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[36m(ClientAppActor pid=68521)[39m [92mINFO [39m:      Metrics types - r2: <class 'float'>, mae: <class 'float'>
+[92mINFO [39m:      aggregate_evaluate: received 100 results and 0 failures
+[92mINFO [39m:
+[92mINFO [39m:      [SUMMARY]
+[92mINFO [39m:      Run finished 20 round(s) in 501.99s
+[92mINFO [39m:      	History (loss, distributed):
+[92mINFO [39m:      		round 1: 0.022867280002683402
+[92mINFO [39m:      		round 2: 0.001493835635483265
+[92mINFO [39m:      		round 3: 0.0018639879359398036
+[92mINFO [39m:      		round 4: 0.002875063787214458
+[92mINFO [39m:      		round 5: 0.00369053334929049
+[92mINFO [39m:      		round 6: 0.004300742782652378
+[92mINFO [39m:      		round 7: 0.005746347986860201
+[92mINFO [39m:      		round 8: 0.005855345748132095
+[92mINFO [39m:      		round 9: 0.004882427653064951
+[92mINFO [39m:      		round 10: 0.0049467939231544735
+[92mINFO [39m:      		round 11: 0.003918873767834157
+[92mINFO [39m:      		round 12: 0.004238364733755589
+[92mINFO [39m:      		round 13: 0.004722399418242275
+[92mINFO [39m:      		round 14: 0.005101985418004915
+[92mINFO [39m:      		round 15: 0.003495393651537597
+[92mINFO [39m:      		round 16: 0.002934012385085225
+[92mINFO [39m:      		round 17: 0.002545769202988595
+[92mINFO [39m:      		round 18: 0.002603138897102326
+[92mINFO [39m:      		round 19: 0.0024985452275723217
+[92mINFO [39m:      		round 20: 0.002437165229348466
+[92mINFO [39m:      	History (loss, centralized):
+[92mINFO [39m:      		round 0: 2.0970346927642822
+[92mINFO [39m:      		round 1: 0.022610371932387352
+[92mINFO [39m:      		round 2: 0.0011337515898048878
+[92mINFO [39m:      		round 3: 0.0016618168447166681
+[92mINFO [39m:      		round 4: 0.0032498848158866167
+[92mINFO [39m:      		round 5: 0.003962950315326452
+[92mINFO [39m:      		round 6: 0.005008785519748926
+[92mINFO [39m:      		round 7: 0.006431079935282469
+[92mINFO [39m:      		round 8: 0.0046374439261853695
+[92mINFO [39m:      		round 9: 0.005022632889449596
+[92mINFO [39m:      		round 10: 0.005880191922187805
+[92mINFO [39m:      		round 11: 0.003956800792366266
+[92mINFO [39m:      		round 12: 0.004550378769636154
+[92mINFO [39m:      		round 13: 0.003893921384587884
+[92mINFO [39m:      		round 14: 0.003150788601487875
+[92mINFO [39m:      		round 15: 0.0026753980200737715
+[92mINFO [39m:      		round 16: 0.00256523210555315
+[92mINFO [39m:      		round 17: 0.002497204812243581
+[92mINFO [39m:      		round 18: 0.0027695263270288706
+[92mINFO [39m:      		round 19: 0.0027062410954385996
+[92mINFO [39m:      		round 20: 0.0025910628028213978
+[92mINFO [39m:      	History (metrics, distributed, evaluate):
+[92mINFO [39m:      	{'mae': [(1, 0.4393934425711632),
+[92mINFO [39m:      	         (2, 0.09223905444145203),
+[92mINFO [39m:      	         (3, 0.10516078233718872),
+[92mINFO [39m:      	         (4, 0.13143422402441501),
+[92mINFO [39m:      	         (5, 0.14865747205913066),
+[92mINFO [39m:      	         (6, 0.16250961162149907),
+[92mINFO [39m:      	         (7, 0.19217447564005852),
+[92mINFO [39m:      	         (8, 0.19434216633439064),
+[92mINFO [39m:      	         (9, 0.17648203700780868),
+[92mINFO [39m:      	         (10, 0.17856473714113236),
+[92mINFO [39m:      	         (11, 0.15710854195058346),
+[92mINFO [39m:      	         (12, 0.16492405474185945),
+[92mINFO [39m:      	         (13, 0.17584720335900783),
+[92mINFO [39m:      	         (14, 0.18039104752242566),
+[92mINFO [39m:      	         (15, 0.14356112167239188),
+[92mINFO [39m:      	         (16, 0.13155138716101647),
+[92mINFO [39m:      	         (17, 0.12236945532262325),
+[92mINFO [39m:      	         (18, 0.12513295590877532),
+[92mINFO [39m:      	         (19, 0.12240290313959122),
+[92mINFO [39m:      	         (20, 0.12108583457767963)],
+[92mINFO [39m:      	 'r2': [(1, 0.5542842262983322),
+[92mINFO [39m:      	        (2, 0.9708830261230469),
+[92mINFO [39m:      	        (3, 0.9636682230234146),
+[92mINFO [39m:      	        (4, 0.9439609217643737),
+[92mINFO [39m:      	        (5, 0.9280662626028061),
+[92mINFO [39m:      	        (6, 0.9161724096536636),
+[92mINFO [39m:      	        (7, 0.887995509505272),
+[92mINFO [39m:      	        (8, 0.8858709901571273),
+[92mINFO [39m:      	        (9, 0.9048345506191253),
+[92mINFO [39m:      	        (10, 0.9035799556970596),
+[92mINFO [39m:      	        (11, 0.9236155819892883),
+[92mINFO [39m:      	        (12, 0.9173882550001144),
+[92mINFO [39m:      	        (13, 0.9079537224769593),
+[92mINFO [39m:      	        (14, 0.9005550515651702),
+[92mINFO [39m:      	        (15, 0.9318698167800903),
+[92mINFO [39m:      	        (16, 0.9428119325637817),
+[92mINFO [39m:      	        (17, 0.9503793430328369),
+[92mINFO [39m:      	        (18, 0.9492611247301102),
+[92mINFO [39m:      	        (19, 0.9512998050451279),
+[92mINFO [39m:      	        (20, 0.9524961894750595)]}
+[92mINFO [39m:      	History (metrics, centralized):
+[92mINFO [39m:      	{'mae': [(0, 4.3717837),
+[92mINFO [39m:      	         (1, 0.43927196),
+[92mINFO [39m:      	         (2, 0.081054114),
+[92mINFO [39m:      	         (3, 0.10026105),
+[92mINFO [39m:      	         (4, 0.14315346),
+[92mINFO [39m:      	         (5, 0.15890747),
+[92mINFO [39m:      	         (6, 0.18233253),
+[92mINFO [39m:      	         (7, 0.21199763),
+[92mINFO [39m:      	         (8, 0.17515194),
+[92mINFO [39m:      	         (9, 0.18490444),
+[92mINFO [39m:      	         (10, 0.20455894),
+[92mINFO [39m:      	         (11, 0.16192299),
+[92mINFO [39m:      	         (12, 0.17605977),
+[92mINFO [39m:      	         (13, 0.16055292),
+[92mINFO [39m:      	         (14, 0.14116293),
+[92mINFO [39m:      	         (15, 0.12834163),
+[92mINFO [39m:      	         (16, 0.12528765),
+[92mINFO [39m:      	         (17, 0.12331329),
+[92mINFO [39m:      	         (18, 0.1313075),
+[92mINFO [39m:      	         (19, 0.13007097),
+[92mINFO [39m:      	         (20, 0.12697123)],
+[92mINFO [39m:      	 'r2': [(0, -39.87419128417969),
+[92mINFO [39m:      	        (1, 0.5592916011810303),
+[92mINFO [39m:      	        (2, 0.9779015779495239),
+[92mINFO [39m:      	        (3, 0.9676088094711304),
+[92mINFO [39m:      	        (4, 0.9366551637649536),
+[92mINFO [39m:      	        (5, 0.9227564334869385),
+[92mINFO [39m:      	        (6, 0.9023716449737549),
+[92mINFO [39m:      	        (7, 0.8746491074562073),
+[92mINFO [39m:      	        (8, 0.9096096158027649),
+[92mINFO [39m:      	        (9, 0.9021017551422119),
+[92mINFO [39m:      	        (10, 0.8853867053985596),
+[92mINFO [39m:      	        (11, 0.9228763580322266),
+[92mINFO [39m:      	        (12, 0.911306619644165),
+[92mINFO [39m:      	        (13, 0.9241019487380981),
+[92mINFO [39m:      	        (14, 0.9385866522789001),
+[92mINFO [39m:      	        (15, 0.9478526711463928),
+[92mINFO [39m:      	        (16, 0.949999988079071),
+[92mINFO [39m:      	        (17, 0.9513259530067444),
+[92mINFO [39m:      	        (18, 0.9460180401802063),
+[92mINFO [39m:      	        (19, 0.9472514986991882),
+[92mINFO [39m:      	        (20, 0.9494965076446533)]}
+[92mINFO [39m:
+[36m(ClientAppActor pid=68521)[39m Epoch 20/30, Loss: 0.006500
+Test Loss: 0.002591, R²: 0.949497, MAE: 0.126971
+[36m(ClientAppActor pid=68521)[39m Epoch 30/30, Loss: 0.007090
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004387, R²: 0.914499, MAE: 0.174039
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001506, R²: 0.970653, MAE: 0.094177
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001391, R²: 0.972891, MAE: 0.090237
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002171, R²: 0.957683, MAE: 0.114388
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003126, R²: 0.939072, MAE: 0.141331
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001303, R²: 0.974602, MAE: 0.087737
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004638, R²: 0.909594, MAE: 0.178153
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003420, R²: 0.933341, MAE: 0.148648
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.006622, R²: 0.870936, MAE: 0.221839
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002166, R²: 0.957772, MAE: 0.114344
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003469, R²: 0.932392, MAE: 0.150523
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002585, R²: 0.949620, MAE: 0.127199
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002700, R²: 0.947375, MAE: 0.129233
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002240, R²: 0.956346, MAE: 0.116590
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001259, R²: 0.975452, MAE: 0.085358
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003277, R²: 0.936125, MAE: 0.145995
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001442, R²: 0.971899, MAE: 0.091827
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001912, R²: 0.962726, MAE: 0.107372
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002629, R²: 0.948755, MAE: 0.128069
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002217, R²: 0.956787, MAE: 0.119067
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002570, R²: 0.949902, MAE: 0.125772
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002200, R²: 0.957122, MAE: 0.115939
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001727, R²: 0.966336, MAE: 0.101537
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004937, R²: 0.903780, MAE: 0.186152
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002630, R²: 0.948742, MAE: 0.128195
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001495, R²: 0.970863, MAE: 0.093693
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001345, R²: 0.973779, MAE: 0.088566
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001319, R²: 0.974299, MAE: 0.087670
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.005072, R²: 0.901148, MAE: 0.189837
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001309, R²: 0.974484, MAE: 0.087933
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002628, R²: 0.948786, MAE: 0.128290
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001328, R²: 0.974123, MAE: 0.088751
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003125, R²: 0.939080, MAE: 0.141586
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002769, R²: 0.946037, MAE: 0.131168
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002076, R²: 0.959544, MAE: 0.111386
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003797, R²: 0.925987, MAE: 0.158270
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003173, R²: 0.938157, MAE: 0.142183
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001721, R²: 0.966462, MAE: 0.101201
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001519, R²: 0.970384, MAE: 0.094594
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001994, R²: 0.961142, MAE: 0.109271
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002372, R²: 0.953763, MAE: 0.120959
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003542, R²: 0.930953, MAE: 0.153250
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002459, R²: 0.952070, MAE: 0.122912
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001970, R²: 0.961595, MAE: 0.108563
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001359, R²: 0.973504, MAE: 0.088979
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002712, R²: 0.947146, MAE: 0.131047
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002598, R²: 0.949357, MAE: 0.127247
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001756, R²: 0.965779, MAE: 0.102243
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001493, R²: 0.970904, MAE: 0.093636
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002005, R²: 0.960910, MAE: 0.109806
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003639, R²: 0.929071, MAE: 0.155348
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001619, R²: 0.968442, MAE: 0.097951
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001971, R²: 0.961587, MAE: 0.109037
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001793, R²: 0.965053, MAE: 0.102936
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002391, R²: 0.953389, MAE: 0.121493
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003353, R²: 0.934648, MAE: 0.147534
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001557, R²: 0.969650, MAE: 0.095834
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001777, R²: 0.965366, MAE: 0.102497
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004649, R²: 0.909394, MAE: 0.179898
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001733, R²: 0.966224, MAE: 0.101240
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003046, R²: 0.940637, MAE: 0.139363
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001609, R²: 0.968642, MAE: 0.097848
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002685, R²: 0.947671, MAE: 0.129676
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001911, R²: 0.962754, MAE: 0.106755
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002614, R²: 0.949050, MAE: 0.127570
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002613, R²: 0.949060, MAE: 0.127810
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002412, R²: 0.952995, MAE: 0.121653
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001937, R²: 0.962238, MAE: 0.110105
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001867, R²: 0.963601, MAE: 0.106230
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002073, R²: 0.959587, MAE: 0.111778
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001505, R²: 0.970669, MAE: 0.094053
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001327, R²: 0.974143, MAE: 0.087808
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002741, R²: 0.946577, MAE: 0.131106
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002056, R²: 0.959929, MAE: 0.111467
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003334, R²: 0.935022, MAE: 0.146995
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001840, R²: 0.964132, MAE: 0.105651
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001458, R²: 0.971581, MAE: 0.092396
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003704, R²: 0.927809, MAE: 0.155460
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001319, R²: 0.974287, MAE: 0.088397
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001411, R²: 0.972504, MAE: 0.090882
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.004290, R²: 0.916380, MAE: 0.171327
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002335, R²: 0.954482, MAE: 0.121782
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001870, R²: 0.963554, MAE: 0.105654
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001413, R²: 0.972457, MAE: 0.092152
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001916, R²: 0.962653, MAE: 0.107462
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002077, R²: 0.959509, MAE: 0.111925
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001331, R²: 0.974062, MAE: 0.088652
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002338, R²: 0.954429, MAE: 0.119207
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001912, R²: 0.962723, MAE: 0.107301
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003138, R²: 0.938835, MAE: 0.142144
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001372, R²: 0.973253, MAE: 0.089394
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002850, R²: 0.944440, MAE: 0.133772
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003694, R²: 0.927990, MAE: 0.157236
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003511, R²: 0.931557, MAE: 0.151673
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002993, R²: 0.941668, MAE: 0.137677
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.002043, R²: 0.960180, MAE: 0.110835
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003270, R²: 0.936265, MAE: 0.145431
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.001404, R²: 0.972638, MAE: 0.090498
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003156, R²: 0.938482, MAE: 0.142160
+[36m(ClientAppActor pid=68521)[39m Test Loss: 0.003402, R²: 0.933687, MAE: 0.148769
+/home/khanhtl/miniconda3/envs/FL/lib/python3.12/site-packages/google/protobuf/internal/well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())

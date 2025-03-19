@@ -1,1 +1,1 @@
-{"fit": {"server_round": 18}, "_timestamp": 1742341809.9496374, "evaluate": {"server_round": 18, "r2": 0.9492611247301102, "mae": 0.12513295590877532}, "_runtime": 453.19362139701843, "_step": 18}
+{"fit": {"server_round": 20}, "_timestamp": 1742341859.660425, "evaluate": {"server_round": 20, "r2": 0.9524961894750595, "mae": 0.12108583457767963}, "_runtime": 502.9044089317322, "_step": 20, "_wandb": {"runtime": 505}}
